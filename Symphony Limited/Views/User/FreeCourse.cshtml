@@ -1,0 +1,158 @@
+﻿@model IEnumerable<Symphony_Limited.Models.Course>
+
+<style>
+   
+    .course-card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease;
+    }
+
+    .course-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .video-container {
+        width: 100%;
+        height: 200px;
+        position: relative;
+    }
+
+    .video-embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .course-details {
+        padding: 20px;
+    }
+
+    .course-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .course-description {
+        font-size: 1rem;
+        color: #555;
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+
+    .course-type {
+        font-size: 0.9rem;
+        color: #777;
+        margin-bottom: 15px;
+    }
+
+    .course-actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .view-course-btn,
+    .download-course-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        margin-top: 10px;
+    }
+
+    .download-course-btn {
+        background-color: #0056b3;
+        color: white;
+        transition: background-color 0.4s cubic-bezier(0.25, 0.1, 0.25, 1), color 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+
+        .download-course-btn:hover {
+            background: linear-gradient(to right, #d946ef, #6366f1);
+            color: white;
+        }
+
+    #searchForm {
+        margin-bottom: 20px;
+    }
+
+    #searchInput {
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        width: 100%;
+    }
+</style>
+
+<section class="hero-wrap hero-wrap-2" style="background-image: url('/User/images/bg_2.jpg');">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-end justify-content-center">
+            <div class="col-md-9 ftco-animate pb-5 text-center">
+                <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>Course Lists <i class="fa fa-chevron-right"></i></span></p>
+                <h1 class="mb-0 bread">Course Lists</h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section bg-light">
+    <div class="container">
+        <div class="row">
+           <div class="col-lg-9">
+                <div class="row" id="courseList">
+                    @foreach (var course in Model.Where(c => c.Type == "Free"))
+                    {
+                        <div class="col-md-6 d-flex align-items-stretch ftco-animate course-item">
+                            <div class="course-card">
+                                <div class="video-container">
+                                    <video controls class="video-embed">
+                                        <source src="@course.VideoUrl" type="video/mp4">
+                                    </video>
+                                </div>
+                                <div class="course-details">
+                                    <h3 class="course-title">@course.Title</h3>
+                                    <p class="course-description">@course.Description</p>
+                                    <p class="course-type">Type: @course.Type</p>
+                                    <div class="course-actions">
+                                        <a href="@course.VideoUrl" class="download-course-btn" download="@course.Title.Replace(" ", "_") + " .mp4">Download</a>
+                                        <a href="@Url.Action("TakeExam", "User", new { courseId = course.Id })" class="view-course-btn">Take Exam</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <div class="row mt-5">
+                    <div class="col">
+                        <div class="block-27">
+                            <ul>
+                                <li><a href="#">&lt;</a></li>
+                                <li class="active"><span>1</span></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">&gt;</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+

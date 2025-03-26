@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Symphony_Limited.Models.UsersTbl>
+
+@{
+    ViewData["Title"] = "Manage Users";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<div class="container mt-4">
+    <h3 class="mb-3">Manage Users</h3>
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover">
+            <thead class="table-light">
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.Username)</th>
+                    <th>@Html.DisplayNameFor(model => model.Email)</th>
+                    <th>@Html.DisplayNameFor(model => model.Role)</th>
+                    <th>@Html.DisplayNameFor(model => model.CreatedAt)</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.Username)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                        <td>
+                            <span class="badge @(item.Role == "Admin" ? "bg-danger" : "bg-success")">
+                                @Html.DisplayFor(modelItem => item.Role)
+                            </span>
+                        </td>
+                        <td>@Html.DisplayFor(modelItem => item.CreatedAt)</td>
+                      
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

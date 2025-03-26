@@ -1,0 +1,90 @@
+﻿@model Symphony_Limited.Models.ExamResult
+
+@{
+    Layout=null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Symphony Limited</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="~/User/css/animate.css">
+
+    <link rel="stylesheet" href="~/User/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/User/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/User/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="~/User/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="~/User/css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="~/User/css/flaticon.css">
+    <link rel="stylesheet" href="~/User/css/style.css">
+</head>
+<body style=" background-color: #f8f8f8;">
+
+    <div class="container" style="font-family: 'Arial', sans-serif; background-color: #f4f4f4; padding: 50px;">
+        <div class="card" style="border: 2px solid #e0e0e0; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 800px; margin: 0 auto;">
+            <div class="card-body" style="padding: 40px;">
+                <hr style="border-top: 2px dashed #ccc; margin: 20px 0;">
+
+                <h1 class="card-title" style="font-size: 2.5em; color: #333; text-align: center; margin-bottom: 20px; font-family: 'Times New Roman', serif;">Certificate of Completion</h1>
+                <hr style="border-top: 2px dashed #ccc; margin: 20px 0;">
+                <p class="card-text" style="font-size: 1.2em; color: #555; text-align: center; margin-bottom: 10px;">
+                    This certificate is awarded to:
+                </p>
+                <h2 class="card-subtitle mb-2 text-muted" style="font-size: 2em; color: #007bff; text-align: center; margin-bottom: 15px; font-weight: bold; font-family: 'Georgia', serif;">@Model.User.Username</h2>
+                <p class="card-text" style="font-size: 1.2em; color: #555; text-align: center; margin-bottom: 10px;">
+                    For successful completion of the course:
+                </p>
+                <h4 class="card-title" style="font-size: 1.8em; color: #333; text-align: center; margin-bottom: 15px; font-weight: bold;">@Model.Exam.Course.Title</h4>
+                <p class="card-text" style="font-size: 1.1em; color: #555; text-align: center; margin-bottom: 10px;">
+                    Score: <span style="font-weight: bold; color: #008000;">@Model.Score</span>
+                </p>
+                <p class="card-text" style="font-size: 1.1em; color: #555; text-align: center; margin-bottom: 20px;">
+                    Date: <span style="font-weight: bold;">@(Model.ResultDate.HasValue ? Model.ResultDate.Value.ToString("MMMM dd, yyyy") : "N/A")</span>
+                </p>
+                <hr style="border-top: 2px dashed #ccc; margin: 20px 0;">
+                <p class="card-text" style="font-size: 1.1em; color: #555; text-align: center; margin-bottom: 20px;">
+                   Institute <span style="font-weight: bold;">Symphony Limitted</span>
+                </p>
+                <hr style="border-top: 2px dashed #ccc; margin: 20px 0;">
+
+                <div style="text-align: center; margin-top: 30px;">
+                    <a href="@Url.Action("DownloadCertificatePdf", "User", new { examResultId = Model.Id })" class="btn btn-primary" style="background-color: #007bff; color: white; padding: 12px 25px; border: none; border-radius: 5px; font-size: 1.1em; text-decoration: none;">Download PDF Certificate</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" /><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
+
+
+    <script src="~/User/js/jquery.min.js"></script>
+    <script src="~/User/js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="~/User/js/popper.min.js"></script>
+    <script src="~/User/js/bootstrap.min.js"></script>
+    <script src="~/User/js/jquery.easing.1.3.js"></script>
+    <script src="~/User/js/jquery.waypoints.min.js"></script>
+    <script src="~/User/js/jquery.stellar.min.js"></script>
+    <script src="~/User/js/owl.carousel.min.js"></script>
+    <script src="~/User/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/User/js/jquery.animateNumber.min.js"></script>
+    <script src="~/User/js/bootstrap-datepicker.js"></script>
+    <script src="~/User/js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="~/User/js/google-map.js"></script>
+    <script src="~/User/js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+﻿@model Instructor;
+@{
+    ViewData["Title"] = "Edit Instructor";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="card shadow-sm p-4" style="max-width: 500px; width: 100%;">
+        <h2 class="mb-4 text-center">Edit Instructor</h2>
+
+        <form asp-action="Edit" method="post" enctype="multipart/form-data">
+            <input type="hidden" asp-for="Id" />
+
+            <div class="form-group">
+                <label asp-for="Name" class="control-label">Instructor Name</label>
+                <input asp-for="Name" class="form-control border-light rounded" required />
+            </div>
+
+            <div class="form-group mt-3">
+                <label asp-for="Email" class="control-label">Email</label>
+                <input asp-for="Email" type="email" class="form-control border-light rounded" required />
+            </div>
+
+            <div class="form-group mt-3">
+                <label asp-for="Phone" class="control-label">Phone</label>
+                <input asp-for="Phone" type="tel" class="form-control border-light rounded" required />
+            </div>
+
+            <div class="form-group mt-3">
+                <label class="control-label">Profile Image</label>
+                <input type="file" name="imageFile" class="form-control border-light rounded" accept="image/*" />
+            </div>
+
+            <div class="form-group mt-4">
+                <button type="submit" class="btn btn-primary rounded-pill w-100 py-2">Update Instructor</button>
+            </div>
+
+            <div class="form-group mt-2">
+                <a asp-action="Index" class="btn btn-secondary rounded-pill w-100 py-2">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>

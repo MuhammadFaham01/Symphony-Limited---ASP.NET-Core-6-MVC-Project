@@ -1,0 +1,49 @@
+﻿@model Symphony_Limited.Models.UsersTbl
+
+@{
+    ViewData["Title"] = "myprofile";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+@if (!string.IsNullOrEmpty(ViewBag.Message))
+{
+    <div class="alert @(ViewBag.IsSuccess ? "alert-success" : "alert-danger") alert-dismissible fade show" role="alert">
+        @ViewBag.Message
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<div class="container mt-4">
+    <h3 class="mb-3">My Profile</h3>
+
+    <form asp-action="myprofile" method="post" class="border p-3 rounded">
+        <input type="hidden" asp-for="Id" />
+
+        <div class="mb-3">
+            <label asp-for="Username" class="form-label">Username</label>
+            <input asp-for="Username" class="form-control" placeholder="Enter your name" />
+            <span asp-validation-for="Username" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label">Email</label>
+            <input asp-for="Email" class="form-control" placeholder="Enter your email" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Current Password</label>
+            <input type="password" class="form-control" name="OldPassword" placeholder="Enter current password" required />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">New Password (Optional)</label>
+            <input type="password" class="form-control" name="NewPassword" placeholder="Enter new password" />
+        </div>
+        <button type="submit" class="btn btn-primary">Save Changes</button>
+    </form>
+</div>
+
+
+
+
+

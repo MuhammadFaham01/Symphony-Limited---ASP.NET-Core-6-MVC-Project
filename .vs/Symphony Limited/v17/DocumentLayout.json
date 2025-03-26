@@ -1,0 +1,745 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\shared\\_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\shared\\_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\course\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\course\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\user\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\user\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\user\\freecourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\user\\freecourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\controllers\\premiumaccesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\controllers\\premiumaccesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\admin\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\admin\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\user\\library.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\user\\library.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\data\\symphony_ltdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\data\\symphony_ltdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\user\\generatecertificate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\user\\generatecertificate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\user\\takeexam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\user\\takeexam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\premiumaccess\\paymentrequired.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\premiumaccess\\paymentrequired.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\user\\premiumcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\user\\premiumcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\user\\instructor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\user\\instructor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\instructor\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\instructor\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\user\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\user\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\user\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\user\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\admin\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\admin\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\models\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\models\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\admin\\myprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\admin\\myprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\models\\userstbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\models\\userstbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\instructor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\instructor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\instructor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\instructor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\models\\premiumaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\models\\premiumaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\wwwroot\\user\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\wwwroot\\user\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\premiumaccess\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\premiumaccess\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\instructor\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\instructor\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|c:\\users\\muhammad faham\\desktop\\symphony limited\\symphony limited\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{906CA01F-DDB9-49B9-BDF5-6755522D6A0F}|Symphony Limited\\Symphony Limited.csproj|solutionrelative:symphony limited\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Symphony Limited\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Symphony Limited\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T22:05:55.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\User\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\User\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\User\\Contact.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\User\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T18:11:44.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Course\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\Course\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Course\\Delete.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\Course\\Delete.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T09:22:03.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Symphony Limited\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Symphony Limited\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwKkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T09:17:11.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Shared\\_Admin.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\Shared\\_Admin.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Shared\\_Admin.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\Shared\\_Admin.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAiwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T17:04:45.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Symphony Limited\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Symphony Limited\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T18:41:56.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Books\\Create.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\Books\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Books\\Create.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\Books\\Create.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAcwCsAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T21:53:34.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Symphony Limited\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Symphony Limited\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAYwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T16:35:07.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FreeCourse.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\User\\FreeCourse.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\User\\FreeCourse.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\User\\FreeCourse.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\User\\FreeCourse.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T19:00:12.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Symphony Limited\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Symphony Limited\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAuwI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T18:06:48.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PremiumAccessController.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Controllers\\PremiumAccessController.cs",
+              "RelativeDocumentMoniker": "Symphony Limited\\Controllers\\PremiumAccessController.cs",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Controllers\\PremiumAccessController.cs",
+              "RelativeToolTip": "Symphony Limited\\Controllers\\PremiumAccessController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwB0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T09:18:03.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InstructorController.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Controllers\\InstructorController.cs",
+              "RelativeDocumentMoniker": "Symphony Limited\\Controllers\\InstructorController.cs",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Controllers\\InstructorController.cs",
+              "RelativeToolTip": "Symphony Limited\\Controllers\\InstructorController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAIwBsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T21:06:17.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Admin\\Home.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\Admin\\Home.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Admin\\Home.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\Admin\\Home.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T19:24:18.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\Books\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T22:00:51.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Course\\Create.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\Course\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Course\\Create.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\Course\\Create.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwDwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T09:21:06.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Library.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\User\\Library.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\User\\Library.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\User\\Library.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\User\\Library.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwC8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T21:51:19.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Symphony_LtdContext.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Data\\Symphony_LtdContext.cs",
+              "RelativeDocumentMoniker": "Symphony Limited\\Data\\Symphony_LtdContext.cs",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Data\\Symphony_LtdContext.cs",
+              "RelativeToolTip": "Symphony Limited\\Data\\Symphony_LtdContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T16:33:19.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Course\\Index.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\Course\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Course\\Index.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\Course\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAcwEgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T09:20:34.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GenerateCertificate.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\User\\GenerateCertificate.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\User\\GenerateCertificate.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\User\\GenerateCertificate.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\User\\GenerateCertificate.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADQAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T19:20:07.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PaymentRequired.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\PremiumAccess\\PaymentRequired.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\PremiumAccess\\PaymentRequired.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\PremiumAccess\\PaymentRequired.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\PremiumAccess\\PaymentRequired.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T18:27:04.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T17:55:36.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PremiumCourse.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\User\\PremiumCourse.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\User\\PremiumCourse.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\User\\PremiumCourse.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\User\\PremiumCourse.cshtml",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAowKwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T09:24:35.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Instructor.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\User\\Instructor.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\User\\Instructor.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\User\\Instructor.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\User\\Instructor.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAEsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T21:22:31.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TakeExam.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\User\\TakeExam.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\User\\TakeExam.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\User\\TakeExam.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\User\\TakeExam.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T19:13:38.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Instructor\\Create.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\Instructor\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Instructor\\Create.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\Instructor\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T21:09:59.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\User\\Home.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\User\\Home.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\User\\Home.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\User\\Home.cshtml",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAowPAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T18:44:46.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\User\\About.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\User\\About.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\User\\About.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\User\\About.cshtml",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAUwFUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T18:10:52.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ManageUsers.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Admin\\ManageUsers.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\Admin\\ManageUsers.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Admin\\ManageUsers.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\Admin\\ManageUsers.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T19:07:16.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ContactMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Models\\ContactMessage.cs",
+              "RelativeDocumentMoniker": "Symphony Limited\\Models\\ContactMessage.cs",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Models\\ContactMessage.cs",
+              "RelativeToolTip": "Symphony Limited\\Models\\ContactMessage.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T14:45:52.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "myprofile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Admin\\myprofile.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\Admin\\myprofile.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Admin\\myprofile.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\Admin\\myprofile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T20:04:58.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UsersTbl.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Models\\UsersTbl.cs",
+              "RelativeDocumentMoniker": "Symphony Limited\\Models\\UsersTbl.cs",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Models\\UsersTbl.cs",
+              "RelativeToolTip": "Symphony Limited\\Models\\UsersTbl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T16:34:29.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Course\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\Course\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Course\\Edit.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\Course\\Edit.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAkwDEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T09:21:33.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Instructor\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\Instructor\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Instructor\\Edit.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\Instructor\\Edit.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T21:10:35.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Instructor\\Index.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\Instructor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Instructor\\Index.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\Instructor\\Index.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAkwFIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T04:07:31.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Models\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "Symphony Limited\\Models\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Models\\HomeViewModel.cs",
+              "RelativeToolTip": "Symphony Limited\\Models\\HomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T19:36:42.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PremiumAccess.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Models\\PremiumAccess.cs",
+              "RelativeDocumentMoniker": "Symphony Limited\\Models\\PremiumAccess.cs",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Models\\PremiumAccess.cs",
+              "RelativeToolTip": "Symphony Limited\\Models\\PremiumAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T12:24:22.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\PremiumAccess\\Index.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\PremiumAccess\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\PremiumAccess\\Index.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\PremiumAccess\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T09:22:31.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\wwwroot\\User\\css\\style.css",
+              "RelativeDocumentMoniker": "Symphony Limited\\wwwroot\\User\\css\\style.css",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\wwwroot\\User\\css\\style.css",
+              "RelativeToolTip": "Symphony Limited\\wwwroot\\User\\css\\style.css",
+              "ViewState": "AgIAAKMoAAAAAAAAAAAqwLEoAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-21T12:43:39.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Instructor\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\Instructor\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Instructor\\Delete.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\Instructor\\Delete.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T21:13:02.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Symphony Limited\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Models\\Course.cs",
+              "RelativeToolTip": "Symphony Limited\\Models\\Course.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T09:52:42.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Program.cs",
+              "RelativeDocumentMoniker": "Symphony Limited\\Program.cs",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Program.cs",
+              "RelativeToolTip": "Symphony Limited\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T18:01:32.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\appsettings.json",
+              "RelativeDocumentMoniker": "Symphony Limited\\appsettings.json",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\appsettings.json",
+              "RelativeToolTip": "Symphony Limited\\appsettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-25T20:04:27.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Instructor.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Models\\Instructor.cs",
+              "RelativeDocumentMoniker": "Symphony Limited\\Models\\Instructor.cs",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Models\\Instructor.cs",
+              "RelativeToolTip": "Symphony Limited\\Models\\Instructor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T20:58:07.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwB8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-06T20:21:28.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Account\\login.cshtml",
+              "RelativeDocumentMoniker": "Symphony Limited\\Views\\Account\\login.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Faham\\Desktop\\Symphony Limited\\Symphony Limited\\Views\\Account\\login.cshtml",
+              "RelativeToolTip": "Symphony Limited\\Views\\Account\\login.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T04:51:09.615Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,404 @@
+﻿@model HomeViewModel;
+
+<style>
+    .course-card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease;
+    }
+
+        .course-card:hover {
+            transform: translateY(-5px);
+        }
+
+    .video-container {
+        width: 100%;
+        height: 200px; /* Fixed height for video */
+        position: relative;
+        overflow: hidden;
+    }
+
+    .video-embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .course-details {
+        padding: 20px;
+    }
+
+    .course-title {
+        font-size: 1.2rem; /* Adjusted title size */
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .course-description {
+        font-size: 1rem;
+        color: #555;
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+
+    .course-type {
+        font-size: 0.9rem;
+        color: #777;
+        margin-bottom: 15px;
+    }
+
+    .download-course-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+        .download-course-btn:hover {
+            background: linear-gradient(to right, #d946ef, #6366f1);
+            color: white;
+        transition: background-color 0.4s cubic-bezier(0.25, 0.1, 0.25, 1), color 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+</style>
+@{
+    ViewBag.useremail=Context.Session.GetString("usersession");
+    ViewBag.username=Context.Session.GetString("username");
+}
+<div class="hero-wrap js-fullheight" style="background-image: url('/User/images/bg_1.jpg');">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-center" data-scrollax-parent="true">
+            <div class="col-md-7 ftco-animate">
+                <span class="subheading">Welcome to Symphony Limited</span>
+                <h1 class="mb-4">We Are Online Platform For Make Learn</h1>
+                <p class="caps">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                <p class="mb-0"><a href="#" class="btn btn-primary">Our Course</a> <a href="#" class="btn btn-white">Learn More</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+@if (Context.Session.GetString("usersession") != null)
+{
+
+    <section class="ftco-section ftco-no-pb ftco-no-pt">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-7"></div>
+                <div class="col-md-5 order-md-last">
+                    <div class="login-wrap p-5 shadow-lg rounded bg-white text-center">
+                        <h2 class="mb-4 font-weight-bold text-primary">Welcome, @ViewBag.username! 🎓</h2>
+                        <p class="mb-4 text-muted" style="font-size: 1.2rem; line-height: 1.6;">
+                            Start your learning journey today! Browse our extensive range of online courses and take your skills to the next level.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+}
+else
+{
+
+    <section class="ftco-section ftco-no-pb ftco-no-pt">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7"></div>
+                <div class="col-md-5 order-md-last">
+                    <div class="login-wrap p-4 p-md-5">
+                        <h3 class="mb-4">Register Now</h3>
+                        <form method="post" asp-controller="Account" asp-action="Register">
+                            <div class="form-group">
+                                <label class="label" for="name">Username</label>
+                                <input type="text" asp-for="Users.Username" class="form-control" placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label class="label" for="email">Email Address</label>
+                                <input type="text" asp-for="Users.Email" class="form-control" placeholder="johndoe@gmail.com">
+                            </div>
+                            <div class="form-group">
+                                <label class="label" for="password">user</label>
+                                <input id="password-field" asp-for="Users.Password" type="password" class="form-control" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <label class="label" for="password">Confirm Password</label>
+                                <input id="password-field" type="password" class="form-control" placeholder="Confirm Password">
+                            </div>
+                            <div class="form-group d-flex justify-content-end mt-4">
+                                <button type="submit" class="btn btn-primary submit"><span class="fa fa-paper-plane"></span></button>
+                            </div>
+                        </form>
+                        <p class="text-center">Already have an account? <a href="#signin">Sign In</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+}
+
+
+<section class="ftco-section">
+    <div class="container">
+        <div class="row justify-content-center pb-4">
+            <div class="col-md-12 heading-section text-center ftco-animate">
+                <span class="subheading">Start Learning Today</span>
+                <h2 class="mb-4">Browse Online Course Category</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-3 col-lg-2">
+                <a href="#" class="course-category img d-flex align-items-center justify-content-center" style="background-image: url(User/images/work-1.jpg);">
+                    <div class="text w-100 text-center">
+                        <h3>IT &amp; Software</h3>
+                        <span>100 course</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-lg-2">
+                <a href="#" class="course-category img d-flex align-items-center justify-content-center" style="background-image: url(User/images/work-9.jpg);">
+                    <div class="text w-100 text-center">
+                        <h3>Music</h3>
+                        <span>100 course</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-lg-2">
+                <a href="#" class="course-category img d-flex align-items-center justify-content-center" style="background-image: url(User/images/work-3.jpg);">
+                    <div class="text w-100 text-center">
+                        <h3>Photography</h3>
+                        <span>100 course</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-lg-2">
+                <a href="#" class="course-category img d-flex align-items-center justify-content-center" style="background-image: url(User/images/work-5.jpg);">
+                    <div class="text w-100 text-center">
+                        <h3>Marketing</h3>
+                        <span>100 course</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-lg-2">
+                <a href="#" class="course-category img d-flex align-items-center justify-content-center" style="background-image: url(User/images/work-8.jpg);">
+                    <div class="text w-100 text-center">
+                        <h3>Health</h3>
+                        <span>100 course</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-lg-2">
+                <a href="#" class="course-category img d-flex align-items-center justify-content-center" style="background-image: url(User/images/work-6.jpg);">
+                    <span class="text w-100 text-center">
+                        <h3>Audio Video</h3>
+                        <span>100 course</span>
+                    </span>
+                </a>
+            </div>
+            <div class="col-md-12 text-center mt-5">
+                <a href="#" class="btn btn-secondary">See All Courses</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="ftco-section">
+    <div class="container">
+        <div class="row justify-content-center pb-4">
+            <div class="col-md-12 heading-section text-center ftco-animate">
+                <span class="subheading">Start Learning Today</span>
+                <h2 class="mb-4">Browse Online Course Category</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="row"
+            @foreach (var course in Model.Courses.Where(c => c.Type == "Free"))
+                {
+        <div class="col-md-6 d-flex align-items-stretch ftco-animate">
+            <div class="course-card">
+                <div class="video-container">
+                    <video controls class="video-embed">
+                        <source src="@course.VideoUrl" type="video/mp4">
+                    </video>
+                </div>
+                <div class="course-details">
+                    <h3 class="course-title">@course.Title</h3>
+                    <p class="course-description">@course.Description</p>
+                    <p class="course-type">Type: @course.Type</p>
+                    <a href="@course.VideoUrl" class="download-course-btn" download="@course.Title.Replace(" ", "_") + ".mp4">Download</a>
+                    <a href="@Url.Action("TakeExam", "User", new { courseId = course.Id })" class="view-course-btn">Take Exam</a>
+
+
+                </div>
+            </div>
+        </div>
+                }
+                    </div>
+            <div class="col-md-12 text-center mt-5">
+                <a asp-controller="User" asp-action="FreeCourse" class="btn btn-secondary">See All Courses</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(User/images/bg_4.jpg);">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+                <div class="block-18 d-flex align-items-center">
+                    <div class="icon"><span class="flaticon-online"></span></div>
+                    <div class="text">
+                        <strong class="number" data-number="400">0</strong>
+                        <span>Online Courses</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+                <div class="block-18 d-flex align-items-center">
+                    <div class="icon"><span class="flaticon-graduated"></span></div>
+                    <div class="text">
+                        <strong class="number" data-number="4500">0</strong>
+                        <span>Students Enrolled</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+                <div class="block-18 d-flex align-items-center">
+                    <div class="icon"><span class="flaticon-instructor"></span></div>
+                    <div class="text">
+                        <strong class="number" data-number="1200">0</strong>
+                        <span>Experts Instructors</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+                <div class="block-18 d-flex align-items-center">
+                    <div class="icon"><span class="flaticon-tools"></span></div>
+                    <div class="text">
+                        <strong class="number" data-number="300">0</strong>
+                        <span>Hours Content</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section ftco-about img">
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-md-12 about-intro">
+                <div class="row">
+                    <div class="col-md-6 d-flex">
+                        <div class="d-flex about-wrap">
+                            <div class="img d-flex align-items-center justify-content-center" style="background-image:url(User/images/about-1.jpg);">
+                            </div>
+                            <div class="img-2 d-flex align-items-center justify-content-center" style="background-image:url(User/images/about.jpg);">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 pl-md-5 py-5">
+                        <div class="row justify-content-start pb-3">
+                            <div class="col-md-12 heading-section ftco-animate">
+                                <span class="subheading">Enhanced Your Skills</span>
+                                <h2 class="mb-4">Learn Anything You Want Today</h2>
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                                <p><a href="#" class="btn btn-primary">Get in touch</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="ftco-intro ftco-section ftco-no-pb">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <div class="img" style="background-image: url(User/images/bg_4.jpg);">
+                    <div class="overlay"></div>
+                    <h2>We Are StudyLab An Online Learning Center</h2>
+                    <p>We can manage your dream building A small river named Duden flows by their place</p>
+                    <p class="mb-0"><a href="#" class="btn btn-primary px-4 py-3">Enroll Now</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>get
+<section class="ftco-section services-section">
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-md-6 heading-section pr-md-5 ftco-animate d-flex align-items-center">
+                <div class="w-100 mb-4 mb-md-0">
+                    <span class="subheading">Welcome to StudyLab</span>
+                    <h2 class="mb-4">We Are StudyLab An Online Learning Center</h2>
+                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    <div class="d-flex video-image align-items-center mt-md-4">
+                        <a href="#" class="video img d-flex align-items-center justify-content-center" style="background-image: url(User/images/about.jpg);">
+                            <span class="fa fa-play-circle"></span>
+                        </a>
+                        <h4 class="ml-4">Learn anything from StudyLab, Watch video</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
+                        <div class="services">
+                            <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-tools"></span></div>
+                            <div class="media-body">
+                                <h3 class="heading mb-3">Top Quality Content</h3>
+                                <p>A small river named Duden flows by their place and supplies</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
+                        <div class="services">
+                            <div class="icon icon-2 d-flex align-items-center justify-content-center"><span class="flaticon-instructor"></span></div>
+                            <div class="media-body">
+                                <h3 class="heading mb-3">Highly Skilled Instructor</h3>
+                                <p>A small river named Duden flows by their place and supplies</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
+                        <div class="services">
+                            <div class="icon icon-3 d-flex align-items-center justify-content-center"><span class="flaticon-quiz"></span></div>
+                            <div class="media-body">
+                                <h3 class="heading mb-3">World Class &amp; Quiz</h3>
+                                <p>A small river named Duden flows by their place and supplies</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
+                        <div class="services">
+                            <div class="icon icon-4 d-flex align-items-center justify-content-center"><span class="flaticon-browser"></span></div>
+                            <div class="media-body">
+                                <h3 class="heading mb-3">Get Certified</h3>
+                                <p>A small river named Duden flows by their place and supplies</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

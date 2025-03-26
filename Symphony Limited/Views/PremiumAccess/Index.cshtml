@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Symphony_Limited.Models.PremiumAccess>
+@{
+    ViewData["Title"] = "Course";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+<h2>Premium Access Requests</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>User</th>
+            <th>Transaction ID</th>
+            <th>Amount</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.User.Username</td>
+                <td>@item.TransactionId</td>
+                <td>@item.Amount</td>
+                <td>@item.Status</td>
+                <td>
+                    @if (item.Status == "Pending")
+                    {
+                        <form asp-action="Approve" asp-route-id="@item.Id" method="post">
+                            <button type="submit" class="btn btn-success">Approve</button>
+                        </form>
+                        <form asp-action="Reject" asp-route-id="@item.Id" method="post">
+                            <button type="submit" class="btn btn-danger">Reject</button>
+                        </form>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
